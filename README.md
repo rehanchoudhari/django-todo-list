@@ -19,6 +19,7 @@ This project is a simple todo list application built using Django.
 
     ```bash
    cd django-todo-list
+   
    python3 -m venv venv
 
 
