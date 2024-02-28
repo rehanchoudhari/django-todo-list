@@ -12,7 +12,7 @@ This project is a simple todo list application built using Django.
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/django-todo-list.git
+   git clone https://github.com/rehanchoudhari/django-todo-list.git
 
 
 Create a virtual environment (optional but recommended):
