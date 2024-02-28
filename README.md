@@ -22,36 +22,41 @@ Create a virtual environment (optional but recommended):
    python3 -m venv venv
 
 
-Activate the virtual environment:
+## Activate the virtual environment:
 
-On Linux/macOS:
+- On Linux/macOS:
+
    ```bash
    source venv/bin/activate
 
-On Windows (Command Prompt):
+- On Windows (Command Prompt):
+
    ```bash
    .\venv\Scripts\activate
 
-On Windows (PowerShell):
+- On Windows (PowerShell):
+- 
    ```bash
    .\venv\Scripts\Activate.ps1
 
-Install dependencies:
+- Install dependencies:
+- 
    ```bash
    pip install -r requirements.txt
 
 
-Database Setup
+## Database Setup
 
-Apply migrations:
+- Apply migrations:
+
    ```bash
    python manage.py migrate
 
-Create a superuser account:
+- Create a superuser account:
    ```bash
    python manage.py createsuperuser
 
-Running the Development Server
+- Running the Development Server
    ```bash
    python manage.py runserver
 
