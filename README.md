@@ -16,35 +16,44 @@ This project is a simple todo list application built using Django.
 
 
 Create a virtual environment (optional but recommended):
-cd django-todo-list
-python3 -m venv venv
+
+    ```bash
+   cd django-todo-list
+   python3 -m venv venv
 
 
 Activate the virtual environment:
 
 On Linux/macOS:
-source venv/bin/activate
+   ```bash
+   source venv/bin/activate
 
 On Windows (Command Prompt):
-.\venv\Scripts\activate
+   ```bash
+   .\venv\Scripts\activate
 
 On Windows (PowerShell):
-.\venv\Scripts\Activate.ps1
+   ```bash
+   .\venv\Scripts\Activate.ps1
 
 Install dependencies:
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 
 Database Setup
 
 Apply migrations:
-python manage.py migrate
+   ```bash
+   python manage.py migrate
 
 Create a superuser account:
-python manage.py createsuperuser
+   ```bash
+   python manage.py createsuperuser
 
 Running the Development Server
-python manage.py runserver
+   ```bash
+   python manage.py runserver
 
 The development server will be accessible at http://127.0.0.1:8000/.
 
