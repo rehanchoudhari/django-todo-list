@@ -15,11 +15,10 @@ This project is a simple todo list application built using Django.
    git clone https://github.com/rehanchoudhari/django-todo-list.git
 
 
-## Create a virtual environment (optional but recommended):
+- Create a virtual environment (optional but recommended):
 
-    ```bash
+   ```bash
    cd django-todo-list
-   
    python3 -m venv venv
 
 
